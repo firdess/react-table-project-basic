@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  text-decoration: none;
+  list-style-type: none;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 10px;
+}
+
+.table {
+  border: 1px solid darkgray;
+  margin-top: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead {
+  text-align: justify;
+width: 100%;
+}
+
+.table-title {
+  background-color: rgb(229, 228, 228);
+  color: rgb(58, 58, 58);
+  width: 100%;
+}
+
+.table-title th {
+  padding: 10px;
+
+
+}
+.button{
+  border: none;
+ 
+}
+
+.group:hover {
+  color: blue;
+  background-color: aqua;
+}
+
+.group .table-item {
+  padding: 10px;
+  margin: 0;
+
+}
+.group .table-item .item{
+  display: flex;
+  gap: 10px;
+  
+}
+.search-area{
+  gap: 5px;
+  display: flex;
+ 
+}
+.search-area input {
+  width: 100%;
+  height: 30px;
+  outline: none;
+  padding-left: 10px;
+}
+.search-area button{
+  width: 10%;
+  border: none;
+  border: 1px solid red;
+  color: red;
+  background-color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+
+
+.btn {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.edit {
+  background-color: rgb(71, 71, 218);
+  color: white;
+}
+.delete{
+  background-color: red;
+  color: white;
+}
